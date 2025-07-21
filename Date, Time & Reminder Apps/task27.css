@@ -1,0 +1,67 @@
+body {
+    background-color: lavenderblush;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.timer-box {
+    width: 320px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.top-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+h2 {
+    color: rgb(24, 22, 24);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: rgb(76, 150, 89);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: seagreen;
+}
+
+#timeDisplay {
+    margin-top: 20px;
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+    color: darkred;
+    font-weight: bold;
+}

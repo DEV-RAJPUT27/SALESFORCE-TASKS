@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlanIt Daily</title>
+  <link rel="stylesheet" href="task29.css">
+</head>
+<body>
+
+<div class="planner-container">
+  <h1 class="main-title">PlanIt Daily</h1>
+
+  <div class="header">
+    <input type="date" id="planner-date">
+    <div class="weekdays">S M T W T F S</div>
+  </div>
+
+  <div class="grid-layout">
+    <div class="left-panel">
+      <h3>Today's Schedule</h3>
+      <div id="schedule-box"></div>
+    </div>
+
+    <div class="right-panel">
+      <div class="block">
+        <h3>Top Priorities</h3>
+        <ul class="priority-list">
+          <li><input type="checkbox"> <input type="text" placeholder="Priority 1"></li>
+          <li><input type="checkbox"> <input type="text" placeholder="Priority 2"></li>
+          <li><input type="checkbox"> <input type="text" placeholder="Priority 3"></li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>Today's Goal</h3>
+        <textarea placeholder="Write your main goal today..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="notes-block">
+    <h3>Notes</h3>
+    <textarea placeholder="Anything else to note?"></textarea>
+  </div>
+
+</div>
+
+<script src="task29.js"></script>
+</body>
+</html>
