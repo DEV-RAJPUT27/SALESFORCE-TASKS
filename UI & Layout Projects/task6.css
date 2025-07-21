@@ -1,0 +1,73 @@
+body {
+    
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    color: navy;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.header p {
+    color: rgba(21, 14, 14, 0.993);
+    font-size: 18px;
+}
+
+.search-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gray;
+}
+
+.listing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h2 {
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 5px;
+}

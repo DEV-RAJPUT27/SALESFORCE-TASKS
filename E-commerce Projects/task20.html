@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Summary</title>
+  <link rel="stylesheet" href="task20.css">
+</head>
+<body>
+
+<div class="order-container">
+  <h2>🧾 Your Order Summary</h2>
+
+  <div class="item">
+    <img src="shoe.png" alt="Product">
+    <div>
+      <p><strong>Casual Shoes</strong></p>
+      <p>Qty: 2 × $30</p>
+    </div>
+    <p class="item-price">$60</p>
+  </div>
+
+  <div class="item">
+    <img src="jeans.png" alt="Product">
+    <div>
+      <p><strong>Denim Jeans</strong></p>
+      <p>Qty: 1 × $40</p>
+    </div>
+    <p class="item-price">$40</p>
+  </div>
+
+  <hr>
+
+  <div class="price-box">
+    <p>Subtotal</p>
+    <p>$100</p>
+  </div>
+  <div class="price-box">
+    <p>Tax (10%)</p>
+    <p>$10</p>
+  </div>
+  <div class="price-box">
+    <p>Shipping</p>
+    <p>$5</p>
+  </div>
+
+  <div class="total">
+    <p><strong>Total</strong></p>
+    <p><strong>$115</strong></p>
+  </div>
+
+  <button onclick="placeOrder()">Place Order</button>
+</div>
+
+<script src="task20.js"></script>
+</body>
+</html>

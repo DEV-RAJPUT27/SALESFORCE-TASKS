@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback / Star Rating Form</title>
+  <link rel="stylesheet" href="task14.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Feedback Form</h2>
+    <img src="feedback.png" alt="Feedback Image" class="feedback-img" />
+
+    <form id="feedbackForm">
+      <label for="name">Your Name:</label><br/>
+      <input type="text" id="name" name="name" required><br/><br/>
+
+      <label for="message">Your Feedback:</label><br/>
+      <textarea id="message" name="message" rows="4" required></textarea><br/><br/>
+
+      <label>Your Rating:</label><br/>
+      <div class="stars">
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        <span class="star" data-value="5">&#9733;</span>
+      </div><br/>
+
+      <input type="submit" value="Submit Feedback">
+    </form>
+
+    <p id="thankYouMsg"></p>
+  </div>
+
+  <script src="task14.js"></script>
+</body>
+</html>

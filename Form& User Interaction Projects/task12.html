@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multi-Step Registration Form</title>
+  <link rel="stylesheet" href="task12.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <form id="regForm">
+      <h2>Registration</h2>
+
+      
+    <div class="step" id="step1">
+     <label>Full Name:</label><br>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="text" id="email"><br><br>
+
+    <button type="button" onclick="nextStep(1)">Next</button>
+      </div>
+
+      
+      <div class="step" id="step2">
+        <label>Username:</label><br>
+        <input type="text" id="username"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="password"><br><br>
+
+        <button type="button" onclick="prevStep(1)">Back</button>
+        <button type="button" onclick="nextStep(2)">Next</button>
+      </div>
+
+      
+      <div class="step" id="step3">
+        <label>Phone Number:</label><br>
+        <input type="text" id="phone"><br><br>
+
+        <label>City:</label><br>
+        <input type="text" id="city"><br><br>
+
+        <button type="button" onclick="prevStep(2)">Back</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="task12.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color:rgb(44, 145, 182);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.project-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: lightgray;
+  padding: 20px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+footer {
+  background-color:rgb(44, 145, 182);
+  background-color: ;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+

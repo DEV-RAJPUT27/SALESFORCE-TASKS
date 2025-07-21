@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Shopping Cart</title>
+  <link rel="stylesheet" href="task17.css">
+</head>
+<body>
+
+  <div class="cart-box">
+    <h1>My Shopping Cart</h1>
+
+    <div class="item">
+      <img src="headphones.png" class="item-img" alt="Product Image">
+
+      <div class="item-info">
+        <h2>Bluetooth Headphones</h2>
+
+        <label>Choose Model:
+          <select id="variant">
+            <option value="2999">Standard - ₹2999</option>
+            <option value="3999">Pro - ₹3999</option>
+            <option value="4999">Ultra - ₹4999</option>
+          </select>
+        </label>
+
+        <p>Price: ₹<span class="price">2999</span></p>
+
+        <label>Quantity:
+          <input type="number" class="qty" value="1" min="1">
+        </label>
+
+        <br>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+
+    <div class="total">
+      <h3>Total Price: ₹<span id="total">2999</span></h3>
+    </div>
+  </div>
+
+  <script src="task17.js"></script>
+</body>
+</html>

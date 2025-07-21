@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color:  rgb(214, 212, 212);
+  color: black;
+}
+
+header {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 12px gray;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.hero {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px gray;
+  animation: fadeInHero 1s ease-in-out;
+}
+
+.hero-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.8s ease;
+  border-radius: 12px;
+  filter: brightness(0.7);
+}
+
+.hero-image-container:hover img {
+  transform: scale(1.03);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(25, 25, 112, 0.75);
+  color: white;
+  padding: 25px 40px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0px 6px 12px black;
+  animation: popUp 1s ease-out;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  margin: 0px 0px 10px;
+}
+
+.hero-text h1 span {
+  color: gold;
+}
+
+.hero-text p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.hero-text button {
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-text button:hover {
+  background-color: orange;
+  transform: scale(1.05);
+}
+
+.featured {
+  padding: 50px 20px;
+  background-color:  rgb(214, 212, 212);
+  text-align: center;
+}
+
+.featured h2 {
+  color: darkblue;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: lavenderblush;
+  padding: 20px;
+  width: 220px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 18px lightgray;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 24px gray;
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  color: black;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.product-card p {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+
+#msgBox {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.msgItem {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  animation: fadeAway 3s forwards;
+}
+
+
+@keyframes fadeAway {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeInHero {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes popUp {
+  0% { opacity: 0; transform: translate(-50%, -60%); }
+  100% { opacity: 1; transform: translate(-50%, -50%); }
+}

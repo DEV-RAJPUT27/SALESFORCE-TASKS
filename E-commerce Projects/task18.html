@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShopEase - Home</title>
+  <link rel="stylesheet" href="task18.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">ShopEase</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Cart</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image-container">
+      <img src="baner.png" alt="ShopEase Banner">
+      <div class="hero-text">
+        <h1>Welcome to <span>ShopEase</span></h1>
+        <p>Style. Tech. Convenience. Delivered with ease.</p>
+        <button onclick="scrollToFeatured()">Explore Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured" id="featured">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="watch.png" alt="Product 1">
+        <h3>Classic Watch</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart('Classic Watch')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="backback.png" alt="Product 2">
+        <h3>Stylish Backpack</h3>
+        <p>$59.99</p>
+        <button onclick="addToCart('Stylish Backpack')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="earbuds.png" alt="Product 3">
+        <h3>Wireless Earbuds</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('Wireless Earbuds')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <div id="msgBox"></div>
+
+  <script src="task18.js"></script>
+</body>
+</html>

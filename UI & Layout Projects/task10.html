@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wedding Invitation - Anjali & Rahul</title>
+  <link rel="stylesheet" href="task10.css">
+</head>
+<body>
+
+  <header>
+    <h1>Anjali ❤️ Rahul</h1>
+    <p>We're getting married!</p>
+  </header>
+
+  <section id="couple">
+    <h2>Meet the Couple</h2>
+    <div class="couple-container">
+      <img src="girl.png" alt="Bride">
+      <img src="boy.png" alt="Groom">
+    </div>
+    <p>Anjali and Rahul are tying the knot and would love to have you join them in their celebration of love and togetherness.</p>
+  </section>
+
+  <section id="details">
+    <h2>Wedding Details</h2>
+    <p><strong>Date:</strong> December 20, 2025</p>
+    <p><strong>Time:</strong> 5:00 PM</p>
+    <p><strong>Venue:</strong> The Royal Garden, Hyderabad</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Journey</h2>
+    <div class="gallery-row">
+      <img src="" alt="Photo1">
+      <img src="" alt="Photo2">
+      <img src="" alt="Photo3">
+    </div>
+  </section>
+
+  <section id="rsvp">
+    <h2>RSVP</h2>
+    <form onsubmit="return validateRSVP()">
+      <label>Name:</label><br>
+      <input type="text" id="rsvp-name"><br>
+      <label>Email:</label><br>
+      <input type="text" id="rsvp-email"><br>
+      <label>Will you attend?</label><br>
+      <select id="rsvp-answer">
+        <option value="">Select</option>
+        <option value="Yes">Yes, I'll be there!</option>
+        <option value="No">Sorry, can't make it</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>With Love, Anjali & Rahul © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

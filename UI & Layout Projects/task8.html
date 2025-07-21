@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Photography Gallery</title>
+  <link rel="stylesheet" href="task8.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>My Photography Gallery</h1>
+    
+  </div>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="apple.png" alt="apple" onclick="showLightbox(this.src)">
+    </div>
+    <div class="photo">
+      <img src="basket.png" alt="basket" onclick="showLightbox(this.src)">
+    </div>
+    <div class="photo">
+      <img src="Citrus.png" alt="citrus" onclick="showLightbox(this.src)">
+    </div>
+    <div class="photo">
+      <img src="beach.png" alt="beach" onclick="showLightbox(this.src)">
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <span onclick="closeLightbox()" class="close-btn">×</span>
+    <img id="lightbox-img" src="">
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Dev's Gallery</p>
+  </div>
+
+  <script src="task8.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Coach Website</title>
+  <link rel="stylesheet" href="task9.css">
+</head>
+<body>
+
+  <header>
+    <h1>Coach Manish Fitness</h1>
+    <p>Your Personal Trainer & Nutrition Guide</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Manish, a certified fitness coach with 5 years of experience helping people reach their health goals.</p>
+    <img src="" alt="Coach photo">
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Personal Training</li>
+      <li>Weight Loss Program</li>
+      <li>Muscle Gain</li>
+      <li>Online Workout Plans</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Workout Gallery</h2>
+    <div class="gallery">
+      <img src="work1.png" alt="Workout 1">
+      <img src="workout2.png" alt="Workout 2">
+      <img src="workout3.png" alt="Workout 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <label>Name:</label><br>
+      <input type="text" id="name"><br>
+      <label>Email:</label><br>
+      <input type="email" id="email"><br>
+      <label>Message:</label><br>
+      <textarea id="message"></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Coach Manish. All rights reserved.</p>
+  </footer>
+
+  <script src="task9.js"></script>
+</body>
+</html>

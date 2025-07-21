@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login / Signup Form</title>
+  <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Login</h2>
+    <form onsubmit="return validateLogin()">
+      <label>Email:</label><br>
+      <input type="text" id="login-email"><br>
+      <label>Password:</label><br>
+      <input type="password" id="login-password"><br>
+      <input type="submit" value="Login">
+    </form>
+
+    <hr>
+
+    <h2>Signup</h2>
+    <form onsubmit="return validateSignup()">
+      <label>Full Name:</label><br>
+      <input type="text" id="signup-name"><br>
+      <label>Email:</label><br>
+      <input type="text" id="signup-email"><br>
+      <label>Password:</label><br>
+      <input type="password" id="signup-password"><br>
+      <label>Confirm Password:</label><br>
+      <input type="password" id="signup-confirm"><br>
+      <input type="submit" value="Signup">
+    </form>
+  </div>
+
+  <script src="task11.js"></script>
+</body>
+</html>

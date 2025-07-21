@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Product Page</title>
+  <link rel="stylesheet" href="task19.css">
+</head>
+<body>
+
+  <div class="product-card">
+    <div class="left-section">
+      <img id="mainImg" src="productt.png" alt="Product Image">
+      <div class="thumbnails">
+        <img onclick="changeImage(this)" src="red.png" alt="Red">
+        <img onclick="changeImage(this)" src="blue.png" alt="Blue">
+        <img onclick="changeImage(this)" src="black.png" alt="Black">
+      </div>
+    </div>
+
+    <div class="right-section">
+      <h1>Stylish Running Shoes</h1>
+      <p class="price">$59.99</p>
+      <p class="desc">High quality, comfortable and durable shoes suitable for running and casual wear. Choose your favorite color and size.</p>
+
+      <label>Select Size:</label>
+      <select>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+      </select>
+
+      <div class="quantity">
+        <button onclick="decreaseQty()">-</button>
+        <input type="text" id="qty" value="1">
+        <button onclick="increaseQty()">+</button>
+      </div>
+
+      <button class="add-cart">🛒 Add to Cart</button>
+    </div>
+  </div>
+
+<script src="task19.js"></script>
+</body>
+</html>

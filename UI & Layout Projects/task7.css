@@ -1,0 +1,95 @@
+body {
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    background-color: rgb(168, 50, 50);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.header p {
+    font-size: 18px;
+    color: lightgray;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+     padding: 20px;
+    margin-left: 45%;
+    
+    
+}
+
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section h2 {
+    color: rgb(29, 37, 144);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lineup-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.artist{
+    text-align: center;
+    margin: 10px;
+}
+
+.artist img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(14, 13, 13);
+  font-family: Arial;
+  padding: 50px;
+}
+
+.product-card {
+  background-color: white;
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px gray;
+}
+
+.left-section img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+.thumbnails {
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-section {
+  margin-left: 40px;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 26px;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 22px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  background-color: lightyellow;
+  border: 1px solid gray;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity input {
+  width: 40px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+
+.quantity button {
+  padding: 6px 12px;
+  background-color: skyblue;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-cart {
+  background-color: darkorange;
+  color: white;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-cart:hover {
+  background-color: orangered;
+}
