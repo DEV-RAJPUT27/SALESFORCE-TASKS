@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(197, 200, 200);
+  font-family: "Segoe UI", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 480px;
+  margin: 60px auto;
+  background-color: ivory;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px gray;
+  border: 3px solid rgb(20, 20, 21);
+  text-align: center;
+}
+
+h2 {
+  color: midnightblue;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid darkslategray;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: lavender;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 16px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: forestgreen;
+}
+
+.profile {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: honeydew;
+  border-radius: 10px;
+  border: 2px solid teal;
+  display: none;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid tomato;
+}
+
+.name {
+  font-size: 20px;
+  color: darkred;
+  margin: 10px 0px;
+}
+
+.bio {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stats {
+  color: darkslateblue;
+  font-size: 14px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: darkmagenta;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: mediumvioletred;
+}
+
+.repos {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.repos h3 {
+  color: darkblue;
+  margin-bottom: 8px;
+}
+
+.repo-item {
+  padding: 6px;
+  background-color: white;
+  margin-bottom: 6px;
+  border-left: 5px solid royalblue;
+}
+
+.repo-item a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.repo-item a:hover {
+  text-decoration: underline;
+  color: navy;
+}

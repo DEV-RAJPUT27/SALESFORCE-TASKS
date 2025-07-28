@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="Task32.css">
+</head>
+<body>
+  <div class="converter-box">
+    <h2>Currency Converter</h2>
+    <img src="currency.png" alt="money" class="money-icon">
+    
+    <input type="number" id="amount" placeholder="Enter amount" />
+
+    <div class="dropdowns">
+      <select id="fromCurrency"></select>
+      <select id="toCurrency"></select>
+    </div>
+
+    <button onclick="convertCurrency()">Convert</button>
+
+    <div class="result" id="resultBox"></div>
+  </div>
+
+  <script src="Task32.js"></script>
+</body>
+</html>

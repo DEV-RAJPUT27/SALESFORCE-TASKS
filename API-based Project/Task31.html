@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Weather App</title>
+  <link rel="stylesheet" href="Task31.css">
+</head>
+<body>
+  <div class="weather-app">
+    <div class="header">
+      <img src="logo.png" class="logo" alt="Weather Logo">
+      <h1>Weather Forecast</h1>
+    </div>
+
+    <div class="auto-locate">
+      <button onclick="getLocationWeather()">Use My Location</button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter City Name">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="weather-card" id="resultBox" style="display: none;">
+      <div class="location">
+        <h2 id="cityName"></h2>
+        <p id="localTime"></p>
+      </div>
+      <div class="weather-info">
+        <img id="weatherIcon" src="" alt="Weather Icon">
+        <p id="temperature"></p>
+        <p id="conditionText"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </div>
+
+    <div class="forecast-container" id="forecastBox" style="display: none;"></div>
+  </div>
+
+  <script src="Task31.js"></script>
+</body>
+</html>

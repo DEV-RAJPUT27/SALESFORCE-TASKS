@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> News App </title>
+  <link rel="stylesheet" href="Task33.css">
+</head>
+<body>
+  <div class="news-container">
+    <h1>🗞️ Top Headlines</h1>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search news..." />
+      
+      <select id="categorySelect">
+        <option value="">All Categories</option>
+        <option value="business">Business</option>
+        <option value="sports">Sports</option>
+        <option value="technology">Technology</option>
+        <option value="health">Health</option>
+        <option value="science">Science</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="world">World</option>
+      </select>
+
+      <button onclick="loadNews()">Search</button>
+    </div>
+
+    <div id="newsBox"></div>
+  </div>
+
+  <script src="Task33.js"></script>
+</body>
+</html>

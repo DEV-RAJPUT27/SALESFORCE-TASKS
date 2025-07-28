@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub User Finder</title>
+  <link rel="stylesheet" href="Taask34.css">
+</head>
+<body>
+  <div class="container">
+    <h2>GitHub User Finder</h2>
+    <input type="text" id="username" placeholder="Enter GitHub username">
+    <button onclick="getUser()">Search</button>
+
+    <div class="profile" id="profile">
+      <img id="avatar" src="" alt="User Avatar">
+      <div class="name" id="name"></div>
+      <div class="bio" id="bio"></div>
+      <div class="stats">
+        <p id="followers"></p>
+        <p id="reposCount"></p>
+      </div>
+      <a id="profileLink" class="link" href="#" target="_blank">Visit Profile</a>
+
+      <div class="repos" id="reposSection">
+        <h3>Latest Repositories</h3>
+        <div id="reposList"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="Task34.js"></script>
+</body>
+</html>

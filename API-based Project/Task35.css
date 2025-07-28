@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightsteelblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote-box {
+  width: 480px;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 0px 14px gray;
+  text-align: center;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 26px;
+  color: darkslategray;
+  margin: 0px;
+}
+
+.quote-display {
+  background-color: whitesmoke;
+  border-left: 6px solid darkblue;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#quoteText {
+  font-size: 18px;
+  color: black;
+  line-height: 1.5;
+}
+
+#authorText {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 15px;
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: steelblue;
+}
