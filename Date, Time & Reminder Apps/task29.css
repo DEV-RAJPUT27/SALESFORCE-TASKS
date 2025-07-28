@@ -67,12 +67,14 @@ h3 {
 .time-slot {
   display: flex;
   align-items: center;
+  gap:10px;
 }
 
 .time-label {
-  width: 70px;
+  width: 100px;
   color: navy;
   font-size: 14px;
+  white-space:nowrap;
 }
 
 .time-input {
