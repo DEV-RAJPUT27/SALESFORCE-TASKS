@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="task37.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="game-box">
+      <h1>✊ Rock ✋ Paper ✌ Scissors</h1>
+
+      <div class="buttons">
+        <img src="rock.png" alt="Rock" onclick="play('rock')">
+        <img src="paper.png" alt="Paper" onclick="play('paper')">
+        <img src="scissors.png" alt="Scissors" onclick="play('scissors')">
+      </div>
+
+      <div class="result-box">
+        <p id="user-choice">You Chose: -</p>
+        <p id="computer-choice">Computer Chose: -</p>
+        <p id="final-result">Result: -</p>
+      </div>
+
+      <button onclick="restartGame()">Restart</button>
+    </div>
+  </div>
+
+  <script src="task37.js"></script>
+</body>
+</html>
