@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio Filter Gallery</title>
+  <link rel="stylesheet" href="task45.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <h2>Portfolio Showcase</h2>
+
+  <div class="filter-menu">
+    <span onclick="filterItems('all')" class="active">All</span>
+    <span onclick="filterItems('frontend')">Frontend</span>
+    <span onclick="filterItems('backend')">Backend</span>
+    <span onclick="filterItems('graphic')">Graphic</span>
+  </div>
+
+  <div class="gallery">
+    <div class="item frontend">
+      <img src="frontend.png" alt="Frontend 1">
+      <p>Login Page UI</p>
+    </div>
+    <div class="item backend">
+      <img src="backend.png" alt="Backend 1">
+      <p>API Dashboard</p>
+    </div>
+    <div class="item graphic">
+      <img src="graphicss.png" alt="Graphic 1">
+      <p>Poster Design</p>
+    </div>
+    <div class="item frontend">
+      <img src="frontend.png" alt="Frontend 2">
+      <p>Portfolio Website</p>
+    </div>
+    <div class="item backend">
+      <img src="backend.png" alt="Backend 2">
+      <p>NodeJS Server</p>
+    </div>
+    <div class="item graphic">
+      <img src="graphicss.png" alt="Graphic 2">
+      <p>Logo Concepts</p>
+    </div>
+  </div>
+</div>
+
+<script src="task45.js"></script>
+</body>
+</html>

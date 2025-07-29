@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ with Search</title>
+  <link rel="stylesheet" href="task44.css">
+</head>
+<body>
+
+  <div class="faq-container">
+    <h1>❓ Help Center - FAQ</h1>
+
+    <div class="search-bar">
+      <img src="search.png" alt="Search" id="search-icon">
+      <input type="text" id="searchInput" placeholder="Search a question...">
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-box">
+        <div class="question" onclick="toggleAnswer(this)">
+          What is HTML?
+        </div>
+        <div class="answer">
+          HTML stands for HyperText Markup Language and is used to structure web pages.
+        </div>
+      </div>
+
+      <div class="faq-box">
+        <div class="question" onclick="toggleAnswer(this)">
+          How does CSS help in styling?
+        </div>
+        <div class="answer">
+          CSS applies color, layout, and design to make web pages attractive and user-friendly.
+        </div>
+      </div>
+
+      <div class="faq-box">
+        <div class="question" onclick="toggleAnswer(this)">
+          What is JavaScript used for?
+        </div>
+        <div class="answer">
+          JavaScript is used to create interactive effects like sliders, buttons, and form validation.
+        </div>
+      </div>
+
+      <div class="faq-box">
+        <div class="question" onclick="toggleAnswer(this)">
+          Can I learn web development as a beginner?
+        </div>
+        <div class="answer">
+          Yes, anyone can learn it with consistency. Start with HTML and CSS, then move to JavaScript.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="task44.js"></script>
+</body>
+</html>
