@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text to Speech Converter</title>
+  <link rel="stylesheet" href="task47.css">
+</head>
+<body>
+
+<div class="main-box">
+  <h1>Text-to-Speech Converter</h1>
+
+  <textarea id="textInput" placeholder="Type your message..."></textarea>
+
+  <div class="options">
+    <select id="voiceList"></select>
+    <button onclick="speakText()">🔊 Speak</button>
+    <img src="speaker.png" alt="Speaker Icon" id="speakerIcon">
+  </div>
+
+  <div class="toggle-mode">
+    <label>
+      <input type="checkbox" id="darkSwitch" onclick="toggleDarkMode()">
+      Dark Mode
+    </label>
+  </div>
+
+  <p class="note">A technology that converts written text into spoken words. </p>
+</div>
+
+<script src="task47.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  background-color: lavender;
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+  padding: 40px;
+  transition: background-color 0.3s;
+}
+
+.main-box {
+  width: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px gray;
+  transition: background-color 0.3s;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width:95%;
+  height: 120px;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  background-color: lightyellow;
+  color: black;
+  resize: none;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+select {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: skyblue;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: steelblue;
+}
+
+#speakerIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.toggle-mode {
+  margin-top: 20px;
+  text-align: center;
+  color: darkblue;
+}
+
+.note {
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+  font-size: 13px;
+}
+
+body.dark {
+  background-color: black;
+}
+
+body.dark .main-box {
+  background-color: dimgray;
+}
+
+body.dark textarea {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+body.dark h1,
+body.dark .note,
+body.dark .toggle-mode {
+  color: white;
+}

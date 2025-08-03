@@ -1,0 +1,144 @@
+body {
+  background-color: lavender;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 50px;
+  transition: background-color 0.3s;
+}
+
+body.dark {
+  background-color: black;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px gray;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+body.dark .container {
+  background-color: dimgray;
+}
+
+h2 {
+  color: darkblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+body.dark h2 {
+  color: white;
+}
+
+#passwordInput {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+body.dark #passwordInput {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+#strengthBox {
+  text-align: left;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+
+body.dark #strengthBox {
+  background-color: gray;
+}
+
+#strengthText {
+  font-weight: bold;
+  color: black;
+}
+
+body.dark #strengthText {
+  color: white;
+}
+
+#strengthBar {
+  height: 15px;
+  width: 0px;
+  margin-top: 8px;
+  background-color: red;
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+#lockIcon {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+
+.toggle-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: gray;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: darkgreen;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.mode-text {
+  font-size: 14px;
+  color: darkblue;
+}
